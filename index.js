@@ -246,6 +246,7 @@ function getArtistByIndex(arr, index) {
 Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born in and died in 20th century (1900-2000) example born in 1901 and died in 1959 - included / born in 1889 and died in 1925 not included - should return ["Salvador Dali", "Frida Kahlo"]*/
 
 
+
 function get20s(arr){
   let newArr = [];
   for(let i = 0; i < arr.length; i++){
@@ -256,6 +257,7 @@ function get20s(arr){
   return newArr;
 }
 console.log(get20s(artists));
+
 
 
 
@@ -307,7 +309,7 @@ At the end, this function should return the new array with information added"*/
 const newArtist = {
   id: 20,
   name: 'Christina Melchor',
-  years: 1989 - 2020,
+  years: "1989 - 2020",
   genre: 'Web Design',
   nationality : 'American',
   bio: 'Born and raised in CA. Married with 2 fur babies.',
